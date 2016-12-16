@@ -1,7 +1,7 @@
 # Tutorial source:
     https://eladnava.com/publishing-your-first-package-to-npm/
 
-# is-null-or-empty
+# sample-npm-package
 
 A Node.js package that checks whether a given string is null or empty. A basic package for an npm publish tutorial.
 
