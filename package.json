@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git-commit": "git add -A . && git commit -a",
     "git-push": "git push --follow-tags -u origin master",
-    "patch-release": "npm run git-commit && npm version patch && npm publish && npm run git-push"
+    "patch-release": "npm version patch && npm publish && npm run git-push"
   },
   "repository": {
     "type": "git",
