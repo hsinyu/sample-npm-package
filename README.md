@@ -9,11 +9,11 @@ A Node.js package that checks whether a given string is null or empty. A basic p
 
 First, install the package using npm:
 
-    npm install is-null-or-empty --save
+    npm install @hsinyuy/sample-npm-package --save
 
 Then, require the package and use it like so:
 
-    var isNullOrEmpty = require('is-null-or-empty');
+    var isNullOrEmpty = require('@hsinyuy/sample-npm-package');
 
     console.log(isNullOrEmpty("")); // true
     console.log(isNullOrEmpty(null)); // true
